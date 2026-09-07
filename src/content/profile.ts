@@ -18,6 +18,8 @@ const profileSchema = z.object({
   location: z.string(),
   /** Free-text availability line shown as a status chip. */
   availability: z.string(),
+  /** Path under /public. Swap for a real photo whenever ready. */
+  photo: z.string(),
   /** Role titles cycled in the hero marquee. */
   roles: z.array(z.string()).min(1),
   email: z.string(),
@@ -45,6 +47,7 @@ const data: Profile = {
   ],
   location: "TODO — city, country",
   availability: "Open to internships",
+  photo: "/about/avatar-placeholder.svg",
   roles: [
     "Aspiring Data Engineer",
     "QA & Validation",

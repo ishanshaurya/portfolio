@@ -1,0 +1,16 @@
+<svg width="800" height="1000" viewBox="0 0 800 1000" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Photo placeholder</title>
+  <desc id="desc">No photo uploaded yet — replace public/about/avatar-placeholder.svg or update profile.photo</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="60%" stop-color="#1c2735"/>
+      <stop offset="100%" stop-color="#123a4a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#g)"/>
+  <circle cx="400" cy="380" r="140" fill="none" stroke="#58a6ff" stroke-width="2" opacity="0.5"/>
+  <circle cx="400" cy="380" r="90" fill="#1c2330"/>
+  <text x="400" y="405" font-family="monospace" font-size="72" font-weight="700" fill="#58a6ff" text-anchor="middle">S</text>
+  <text x="400" y="620" font-family="monospace" font-size="20" fill="#8b949e" text-anchor="middle">PHOTO PENDING</text>
+</svg>

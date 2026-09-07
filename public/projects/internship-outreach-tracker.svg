@@ -1,0 +1,20 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Internship Outreach Tracker — placeholder screenshot</title>
+  <desc id="desc">Gradient placeholder, no screenshot uploaded yet</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="55%" stop-color="#26241c"/>
+      <stop offset="100%" stop-color="#463a12"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#2a313c" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="750" fill="url(#g)"/>
+  <rect width="1200" height="750" fill="url(#grid)" opacity="0.5"/>
+  <circle cx="980" cy="140" r="220" fill="#58a6ff" opacity="0.12"/>
+  <circle cx="220" cy="640" r="180" fill="#56d4a6" opacity="0.12"/>
+  <text x="60" y="660" font-family="monospace" font-size="22" fill="#8b949e">SCREENSHOT PENDING</text>
+  <text x="60" y="600" font-family="monospace" font-size="38" font-weight="700" fill="#e6edf3">Internship Outreach Tracker</text>
+</svg>
